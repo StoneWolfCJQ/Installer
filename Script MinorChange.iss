@@ -5,7 +5,7 @@
 #define MyAppVersion "0.0.0.2"
 #define MyAppPublisher "SWCMC"
 #define MyAppExeName "WebInterface.exe"
-;Path Underneath is relate to ur project, u must change it to have effect
+;Path Underneath is related to ur project, u must change it to have effect
 #define PartPath "C#-MinorChange"
 
 [Setup]
