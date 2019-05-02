@@ -39,7 +39,7 @@ Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescrip
 
 [Files]
 Source: "..\{#PartPath}\WebInterface.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\{#PartPath}\*"; Excludes: "SourceCode,*.xml,*.pdb,*.config,*.json,New Html,Video" ;DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "..\{#PartPath}\*"; Excludes: "SourceCode,*.xml,*.pdb,*.config,*.json,New Html,Video,BackUp,Desgin" ;DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
